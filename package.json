@@ -1,12 +1,15 @@
 {
   "name": "w9d2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "rock bad",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch --mode=development"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "the best pair ever",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
 }
